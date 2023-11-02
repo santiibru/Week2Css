@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container-img{
+    width: 230px;
+    height: 300px;
+    position: relative;
+
+}
+
+#room-img{
+    width: 230px;
+    height: 300px;
+    border-radius: 18px;
+    object-fit: cover;
+    
+}
+main{
+    width: fit-content;
+}
+
+#room-img:hover{
+    filter: brightness(70%);
+
+}
+
+
+#container-save-button{
+    position:absolute;
+    top: 0px;
+    right: 10px;
+    border-style: none;
+    background-color: red;
+    border-radius: 3vw;
+    padding: 18px;
+    transition: 300ms;
+}
+
+
+#save-button{
+    color: white;
+    font-weight: bold;
+
+}
+
+#forniture-button{
+    padding: 10px;
+    border-radius: 3vw;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    border-style: none;
+    transition: 300ms;
+}
+
+#big-button{
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.small-button{
+    border-radius: 50%;
+    border-style: none;
+    padding: 10px;
+}
+
+#upload-button{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    transition: 300ms;
+}
+
+#more-button{
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    transition: 300ms;
+}
+
+#buttons{
+    visibility: hidden;
+}
+
+main:hover #buttons{
+    visibility: visible;
+}
+
+main:hover #container-save-button{
+    top: 15px;
+}
+
+main:hover #forniture-button{
+    bottom: 12px;
+}
+main:hover #upload-button{
+    bottom: 12px;
+}
+main:hover #more-button{
+    bottom: 12px;
+}
